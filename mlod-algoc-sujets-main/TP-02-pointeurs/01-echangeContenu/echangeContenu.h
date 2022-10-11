@@ -1,3 +1,3 @@
-#pragma once
+//#pragma once
 
-// TODO: definir echangeContenu
+void echangeContenu(int *x , int *y);
