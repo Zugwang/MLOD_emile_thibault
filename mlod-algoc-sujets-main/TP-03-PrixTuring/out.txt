@@ -1,0 +1,152 @@
+nbGagnants = 50
+A lu
+Année non correcteTaille =50L'année : 0 
+Le gagnant était (null)
+(null)
+L'année : 1966 
+Le gagnant était Alan J. Perlis
+Construction de compilateurs
+L'année : 1967 
+Le gagnant était Maurice Wilkes
+Bibliothèque logicielle
+L'année : 1968 
+Le gagnant était Richard Hamming
+Méthodes numériques, systèmes de codage automatique, détection et correction d’erreurs
+L'année : 1969 
+Le gagnant était Marvin Minsky
+Intelligence artificielle
+L'année : 1970 
+Le gagnant était James H. Wilkinson
+Analyse numérique, algèbre linéaire, analyse d’erreur vers l’arrière
+L'année : 1971 
+Le gagnant était John McCarthy
+Intelligence artificielle
+L'année : 1972 
+Le gagnant était Edsger Dijkstra
+La science et l’art des langages de programmation, langage ALGOL
+L'année : 1973 
+Le gagnant était Charles Bachman
+Technologie des bases de données
+L'année : 1974 
+Le gagnant était Donald Knuth
+Analyse des algorithmes et conception des langages de programmation
+L'année : 1975 
+Le gagnant était Allen Newell
+Intelligence artificielle, la psychologie de la compréhension humaine, traitement de liste
+L'année : 1976 
+Le gagnant était Michael Rabin
+Machine non déterministe. Voir Machine de Turing non déterministe
+L'année : 1977 
+Le gagnant était John Backus
+Systèmes de programmation de haut niveau, procédures formelles pour la spécification des langages de programmation, langage FORTRAN
+L'année : 1978 
+Le gagnant était Robert Floyd
+Méthodologies pour la création de logiciels efficaces et fiables
+L'année : 1979 
+Le gagnant était Kenneth Iverson
+Langages de programmation et notation mathématique, implémentation de systèmes interactifs, utilisation éducative d’APL, théorie et pratique du langage de programmation
+L'année : 1980 
+Le gagnant était Charles A. R. Hoare
+Définition et conception des langages de programmation
+L'année : 1981 
+Le gagnant était Edgar Frank Codd
+Systèmes de gestion de bases de données, en particulier bases de données relationnelles
+L'année : 1982 
+Le gagnant était Stephen Cook
+Complexité du calcul informatique
+L'année : 1983 
+Le gagnant était Kenneth Thompson
+Théorie des systèmes d'exploitation, implémentation du système UNIX
+L'année : 1984 
+Le gagnant était Niklaus Wirth
+Développement des langages EULER, Algol W, MODULA et PASCAL
+L'année : 1985 
+Le gagnant était Richard Karp
+Théorie des algorithmes, NP-complétude
+L'année : 1986 
+Le gagnant était John Hopcroft
+Création et analyse de structures de données
+L'année : 1987 
+Le gagnant était John Cocke
+Théorie des compilateurs, architecture des grands systèmes, invention des architectures RISC
+L'année : 1988 
+Le gagnant était Ivan Sutherland
+Conception assistée par ordinateur (CAO)
+L'année : 1989 
+Le gagnant était William Kahan
+Analyse numérique
+L'année : 1990 
+Le gagnant était Fernando Corbató
+Applications réparties, création de CTSS et Multics
+L'année : 1991 
+Le gagnant était Robin Milner
+Logique pour fonctions calculable, ML, Calculus of communicating systems
+L'année : 1992 
+Le gagnant était Butler Lampson
+Environnements personnels distribués
+L'année : 1993 
+Le gagnant était Juris Hartmanis 
+Théorie de la complexité
+L'année : 1994 
+Le gagnant était Edward Feigenbaum
+Systèmes d’intelligence artificielle de grande envergure
+L'année : 1995 
+Le gagnant était Manuel Blum
+Théorie de la complexité appliquée à la cryptographie et à la vérification de programmes
+L'année : 1996 
+Le gagnant était Amir Pnueli
+Logique temporelle et vérification de programmes et de systèmes
+L'année : 1997 
+Le gagnant était Douglas Engelbart
+Informatique interactive
+L'année : 1998 
+Le gagnant était James Gray
+Bases de données et traitement de transactions
+L'année : 1999 
+Le gagnant était Frederick Brooks
+Architecture des ordinateurs, systèmes d’exploitation et logiciels
+L'année : 2000 
+Le gagnant était Andrew Yao
+Théorie de la calculabilité, génération de nombres pseudo-aléatoires, cryptographie et complexité de la communication
+L'année : 2001 
+Le gagnant était Ole-Johan Dahl
+Programmation orientée objet et création des langages Simula I et Simula 67
+L'année : 2002 
+Le gagnant était Ronald L. Rivest
+Cryptographie à clef publique et système RSA
+L'année : 2003 
+Le gagnant était Alan Kay
+Programmation orientée objet et création du langage Smalltalk
+L'année : 2004 
+Le gagnant était Vinton G. Cerf
+Réseaux, TCP/IP
+L'année : 2005 
+Le gagnant était Peter Naur
+Pour des contributions fondamentales à la conception des langages de programmation et à la définition d'Algol 60, pour la conception des compilateurs et pour l'art et la pratique de la programmation informatique
+L'année : 2006 
+Le gagnant était Frances Allen
+Optimisation des compilateurs
+L'année : 2007 
+Le gagnant était Edmund M. Clarke, Allen Emerson et Joseph Sifakis
+Pour leurs travaux sur le model checking
+L'année : 2008 
+Le gagnant était Barbara Liskov
+Pour la conception de langages de programmation et la méthodologie polymorphe
+L'année : 2009 
+Le gagnant était Charles P. Thacker
+Pour le travail effectué tout au long de sa carrière dont le Xerox Alto
+L'année : 2010 
+Le gagnant était Leslie Valiant
+Pour le travail en apprentissage, en théorie de la complexité, en calcul distribué et parallèle
+L'année : 2011 
+Le gagnant était Judea Pearl
+Pour des contributions fondamentales à l'intelligence artificielle par le développement de l'analyse probabiliste et du raisonnement causal
+L'année : 2012 
+Le gagnant était Silvio Micali et Shafi Goldwasser
+Pour cryptologie et la vérification de preuve, basés de la théorie de la complexité
+L'année : 2013 
+Le gagnant était Leslie Lamport
+Contributions fondamentales théoriques appliquées aux systèmes distribués et concurrents - concepts de causalité, d'horloges logiques et de consistance séquentielle
+L'année : 2014 
+Le gagnant était Michael Stonebraker
+Contributions aux systèmes de gestions de bases de données (SGBD) et inventeur de PostgreSQL

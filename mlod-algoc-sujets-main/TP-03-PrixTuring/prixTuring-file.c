@@ -55,7 +55,20 @@ typedef struct {
 
 } GagnantTuring;
 
+void sortTuringWinnerByYear(GagnantTuring *tab_appelle, int nbGagnants){
 
+	GagnantTuring intermediaire;
+	for (int i=0 ; i<nbGagnants ; i++){
+    	for(int j=i+1 ; j <= nbGagnants;j++){
+			if(tab_appelle[i].annee > tab_appelle[j].annee){
+				intermediaire = tab_appelle[i];
+				tab_appelle[i] = tab_appelle[j];
+				tab_appelle[j] = intermediaire;
+
+			}
+		}
+	}
+}
 
 GagnantTuring *readWinners(int nbGagnants ){
 
@@ -81,9 +94,9 @@ void printWinners(GagnantTuring *tab_appelle, int taille){
 	for (int i = 0 ; i < taille ; i ++){
 		printf("L'année : %d \n",tab_appelle[i].annee);
 		printf("Le gagnant était ");
-		printf(tab_appelle[i].gagnant);
+		printf("%s",tab_appelle[i].gagnant);
 		printf("\n");
-		printf(tab_appelle[i].sujet);
+		printf("%s",tab_appelle[i].sujet);
 		printf("\n");
 
 	}
@@ -104,6 +117,15 @@ void infosAnnee(GagnantTuring *tab_appelle, int annee, int nbGagnants){
 	}
 }
 
+void LET_BE_FREEEEEEEEEE(GagnantTuring *tab_appelle, int nbGagnants){
+	for(int i = 0 ; i < nbGagnants ; i++){
+
+		free(tab_appelle[i].gagnant);
+		free(tab_appelle[i].sujet);
+	}
+
+	free(tab_appelle);
+}
 
 
 int main(int argc, char *argv[]	)
@@ -119,6 +141,16 @@ int main(int argc, char *argv[]	)
 		int annee_r = atoi(argv[2]);
 		infosAnnee(test, annee_r, nbGagnants);
 	}
+
+	if (argc > 2){
+		//sortTuringWinnerByYear(&test, nbGagnants);
+	}
+
+	sortTuringWinnerByYear(test,nbGagnants);
+
+	printWinners(test, nbGagnants);
+
+	LET_BE_FREEEEEEEEEE(test, nbGagnants);
 
 	return EXIT_SUCCESS;
 }
