@@ -66,19 +66,19 @@ int main(void){
 	printf("retirePremier_r(4)   : ");
 	l = retirePremier_r(4,l);
 	afficheListe_r(l);
-
+	*/
 	printf("retirePremier_r(4)   : ");
 	l = retirePremier_r(4,l);
 	afficheListe_r(l);
 
 	printf("retirePremier_r(99)  : ");
 	l = retirePremier_r(99,l);
-	afficheListe_r(l);*/
+	afficheListe_r(l);
 	
 	printf("AHHHHHHHHHH");
 	afficheEnvers_r(l);
 
-	//detruire_r(l);
+	//detruire_i(l);
 
 	return EXIT_SUCCESS;
 }
