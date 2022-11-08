@@ -14,26 +14,22 @@ int main(void){
 	
 	l = ajoutTete(1,l);
 	l = ajoutTete(2,l);
+	l = ajoutTete(3,l);
 	l = ajoutTete(4,l);
-	l = ajoutTete(1,l);
 	l = ajoutTete(5,l);
 	l = ajoutTete(6,l);
 	l = ajoutTete(2,l);
 	l = ajoutTete(4,l);
 	l = ajoutTete(1,l);
-
 	
-	afficheListe_i(l);
-
-	/*ajoutFin_r(99,l);
-	afficheListe_i(l);
-
+	ajoutFin_r(99,l);
 	ajoutFin_r(100,l);
-	afficheListe_i(l);
 
+	afficheListe_i(l);
+	
 	p = cherche_i(200,l);
 	printf("cherche_i(200) : %s\n",estVide(p)?"pas trouve":"[ERREUR] trouve !!!");
-
+	
 	p = cherche_i(99,l);
 	if(estVide(p))
 		printf("cherche_i(99) : [ERREUR] pas trouve \n");
@@ -42,10 +38,10 @@ int main(void){
 		afficheElement(p->val);
 		printf("\n");
 	}
-
+	
 	p = cherche_r(200,l);
 	printf("cherche_r(200) : %s\n",estVide(p)?"pas trouve":"[ERREUR] trouve !!!");
-
+	
 	p = cherche_r(99,l);
 	if(estVide(p))
 		printf("cherche_r(99) : [ERREUR] pas trouve \n");
@@ -54,15 +50,15 @@ int main(void){
 		afficheElement(p->val);
 		printf("\n");
 	}
-
+	
 	printf("retirePremier_i(1)   : ");
 	l = retirePremier_i(1,l);
 	afficheListe_r(l);
-
+	
 	printf("retirePremier_i(1)   : ");
 	l = retirePremier_i(1,l);
 	afficheListe_r(l);
-
+	/*
 	printf("retirePremier_i(100) : ");
 	l = retirePremier_i(100,l);
 	afficheListe_r(l);
@@ -77,9 +73,10 @@ int main(void){
 
 	printf("retirePremier_r(99)  : ");
 	l = retirePremier_r(99,l);
-	afficheListe_r(l);
-
-	*/
+	afficheListe_r(l);*/
+	
+	printf("AHHHHHHHHHH");
+	afficheEnvers_r(l);
 
 	//detruire_r(l);
 
