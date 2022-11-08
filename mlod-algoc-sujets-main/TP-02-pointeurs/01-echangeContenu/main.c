@@ -21,6 +21,7 @@ void matrix_print(int64_t mat[SIZE][SIZE]){
 
 }
 
+
 void matrix_mult(int64_t matRes[SIZE][SIZE] , int64_t mat1[SIZE][SIZE], int64_t mat2[SIZE][SIZE]){
 
 	for (int i = 0 ; i < SIZE ; i++){

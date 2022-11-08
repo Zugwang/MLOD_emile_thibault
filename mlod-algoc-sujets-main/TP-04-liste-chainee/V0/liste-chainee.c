@@ -12,20 +12,28 @@ bool estVide(Liste l) {
 // créer une liste d'un seul élément contenant la valeur v
 Liste creer(Element v){
 	Liste list = malloc(sizeof(Cellule));
-	list->val = v;
-	list->suiv = NULL;
+	if( list != NULL){
+		list->val = v;
+		list->suiv = NULL;
+	}
+	
 	return list;
 }
 
 
 // ajoute l'élément v en tete de la liste l
 Liste ajoutTete(Element v, Liste l) {
-	Cellule *nvl_cel = malloc(sizeof(Cellule));
 
-	nvl_cel->val = v;
-	nvl_cel->suiv = l;
+	if (l == NULL){
+		return creer(v);
+	}
+
+	Liste nvl_list = malloc(sizeof(Cellule));
+
+	nvl_list->val = v;
+	nvl_list->suiv = l;
 	
-	return &nvl_cel;
+	return nvl_list;
 }
 
 
@@ -39,7 +47,15 @@ void afficheElement(Element e) {
 // Attention la liste peut être vide !
 // version itérative
 void afficheListe_i(Liste l) {
-	TODO;
+	Liste p_parcours = l;
+	Cellule c_parcours = *p_parcours;
+	
+	while (p_parcours != NULL)
+	{
+		printf("%d",c_parcours.val);
+		//p_parcours = c_parcours.suiv;
+		//c_parcours = *p_parcours;
+	}
 }
 
 // version recursive
