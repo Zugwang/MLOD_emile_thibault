@@ -4,16 +4,14 @@
 #include <string.h>
 
 void  afficheElement(Element e){
-    printf("%s", e);
+    printf("%s", (char *)e);
     printf("\n");
 }
 
-void detruireElement(Element e){
-    free(&e);
-}
+void detruireElement(Element e){ }
 
 bool equalsElement(Element e1, Element e2){
-    if(strcmp(e1,e2)==NULL){
+    if(strcmp(e1,e2)==0){
         return true;
     }else{
         return false;
